@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  z-index: 1;
+}
+.container {
+  width: 100vw;
+  height: 150vh;
+  background-image: url("./background_home.webp");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.helper {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul {
+  display: flex;
+  list-style: none;
+  flex: wrap;
+}
+.health {
+  margin: 22px 19px 0px 15px;
+  font-size: 1.5rem;
+  font-family: "Grandstander", cursive;
+}
+.health a:hover{
+    text-shadow:3px 3px 7px white;
+}
+
+a {
+  color: white;
+}
+
+.logo {
+  margin-left: 1%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: rgb(234, 195, 195);
+}
+
+.navi {
+  background-color: rgb(9, 8, 8);
+  border-radius: 5%;
+  margin-top: 3px;
+}
+
+
+
+
+h3 {
+  margin-top: 1.5rem;
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-style: normal;
+  font-size: 1.3em;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.run {
+  padding: 0px;
+  width: 16rem;
+  height: 14rem;
+  border-radius: 50%;
+  margin: 4rem 3rem 0rem 1rem;
+  opacity: 0.7;
+  transition: all 3s ease-in-out;
+  padding: 0px 0px 2rem 0px;
+  float:right;
+}
+.run:hover {
+  transform: rotate(360deg);
+}
+.very_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-top:2rem;
+  height:18rem;
+}
+.right {
+  position: relative;
+  bottom: 3rem;
+
+}
+
+.info-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 600px;
+  height: 12rem;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  font-size:2rem;
+  margin: 2rem 0rem 0rem 13rem;
+  box-shadow: 2px 2px 6px 0px white;
+
+  
+
+  
+  
+  /* transition: all 4s ease-in-out; */
+ }
+/*.info-box:hover {
+  transform: translate(45px, 45px);
+} */
+
+
+.info-item {
+  display: flex;
+  margin: 10px;
+  width: 260px;
+  font-family: "Grandstander", cursive;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  color: peachpuff;
+}
+button {
+  background-color: white;
+  color: rgb(14, 11, 11);
+  border-radius: 140px;
+  margin: 1.25rem 2rem 3rem 0rem;
+  padding: 15px;
+  /* border:5px solid seagreen ; */
+  font-weight: 200;
+
+  box-shadow: -2px -2px 8px burlywood; 
+}
+
+
+button:hover{
+    background-color: blueviolet;
+    font-family: "Grandstander", cursive;
+    border:0px solid ;
+    transform:translatey(5px);
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  color:aqua;
+  justify-content: center;
+  /* margin-left: 13rem; */
+  margin-top:2rem;
+  transition: all 3s ease;
+}
+
+.stats:hover {
+  transform: translateY(-40px);
+}
+
+.expand {
+  margin: 2rem 3rem 3rem 3rem;
+}
+
+.design {
+  font-family: "Grandstander", cursive;
+
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Protest Strike", sans-serif;
+  font-size: 50px;
+}
+
+.text-background-image {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  background-image: url("./text.webp");
+  background-size: cover;
+  background-position: center;
+  background-clip: text; /* Clips background to the text */
+  color: transparent; /* Makes the text transparent */
+  -webkit-text-fill-color: transparent; /* Ensures color is filled by the background */
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 1.5rem;
+}
+
+
+.domain{
+    
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+  
+}
+.domains{
+        
+        background: linear-gradient(to bottom, #ffffff, #f0f0f0, #e0e0e0);
+        width: 180px;
+        height: 230px;
+        border: 1px solid #73db82;
+        text-align: center;
+        opacity:0.5;
+        transition:all 1sec ease;
+        BOX-SHADOW: 4PX 4PX 6PX rgb(208, 247, 122);
+}
+.domains:hover{
+    transform:translate(-9px,-10PX);
+}
+.adjust{
+    width:30px;
+    height:50px;
+}
+.domains p{
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#trainers h2{
+    text-align: center;
+}
+@media (min-width:100px) and (max-width:1150px){
+    .run{
+        display:none;
+    }
+    .info-box{
+       margin:2rem 3rem 0rem 3rem;
+       height:175px;
+    }
+    .stats:hover{
+        transition: none;
+        transform: none;
+        
+    }
+}

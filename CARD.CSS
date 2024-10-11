@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #090808;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color:white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.workout-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.workout-card h2 {
+    margin-bottom: 15px;
+    color: #ff6b35;
+}
+
+.workout-card p {
+    margin: 5px 0;
+}
+
+.workout-card p strong {
+    font-weight: bold;
+}
+#box1{
+    background-color: rgb(221, 255, 0);
+    height:13rem;
+}
+#box2{
+    background-color: aqua;
+    height:13rem;
+}
+#box3{
+    background-color: rgb(221, 255, 0);
+    height:13rem;
+}

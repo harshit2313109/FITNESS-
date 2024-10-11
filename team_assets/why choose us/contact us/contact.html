@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="../contact.webp" alt="Logo" class="logo">
+        </div>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you.<br>General inquiries, suggestions or comments, let us know!</p>
+            <form action="#" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
+
+                <label for="hear-about">How did you hear about us?</label>
+                <select id="hear-about" name="hear-about">
+                    <option value="select">Select one...</option>
+                    <option value="internet">Internet</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="image-container">
+            <img src="./image3.webp" alt="Swimming Pool">
+        </div>
+    </div>
+</body>
+</html>
